@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PrayerLayoutRoutes } from './prayer-layout.routing';
 import { PrayerDashboardComponent } from '../../prayer-dashboard/prayer-dashboard.component';
+import { PrayerDetailDashboardComponent } from '../../prayer-dashboard/prayer-detail-dashboard.component';
 
 import {
   MatButtonModule,
@@ -23,6 +24,7 @@ import {
   ],
   declarations: [
     PrayerDashboardComponent,
+    PrayerDetailDashboardComponent
   ]
 })
 
