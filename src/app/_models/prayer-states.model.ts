@@ -5,5 +5,5 @@ export class PrayerState {
     index_current_day: number;
     archived: boolean;
     started: boolean;
-    prayer?: Prayer;
+    // prayer?: Prayer;
 }

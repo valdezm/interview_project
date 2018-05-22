@@ -24,7 +24,8 @@ export class PrayerDashboardComponent implements OnInit {
     this.last_prayer_state = JSON.parse(localStorage.getItem('prayer_states'))      
     if (this.last_prayer_state)
     {
-      this.active_prayers.push(this.last_prayer_state.prayer);
+      this.active_prayers.push(this.prayers[this.last_prayer_state.id-1]);
+      this.prayers.splice(this.last_prayer_state.id-1, 1);
     }
   }  
   onSelect(prayer: Prayer){
@@ -33,9 +34,9 @@ export class PrayerDashboardComponent implements OnInit {
   onSaveAndBack($event){
       // to be transformed(serialized) in to a prayer state model, and more logical definition here.
       localStorage.setItem('prayer_states', JSON.stringify({ prayer:this.selected_prayer, started:true, archived: false, selected: true, id: this.selected_prayer.id, index_current_day: $event}));
-      this.last_prayer_state = { prayer:this.selected_prayer, started:true, archived: false, selected: true, id: this.selected_prayer.id, index_current_day: $event}
+      this.last_prayer_state = { started:true, archived: false, selected: true, id: this.selected_prayer.id, index_current_day: $event}
       this.active_prayers.pop();
-      this.active_prayers.push(this.last_prayer_state.prayer);
+      this.active_prayers.push(this.prayers[this.last_prayer_state.id-1]);
       this.selected_prayer = null;
   }
 
