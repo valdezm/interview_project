@@ -1,3 +1,7 @@
+![alt text](whiteboard/20180521_165756.jpg "Some inspiration on the path forward")
+**[To build this project checkout the Terminal Commands below](https://github.com/valdezm/interview_project#terminal-commands)**
+
+
 # [Material Dashboard Angular - Free Bootstrap Material Design Admin](https://www.creative-tim.com/product/material-dashboard-angular2)[![version][version-badge]][CHANGELOG]
 
 ![alt text](http://s3.amazonaws.com/creativetim_bucket/products/53/original/opt_md_angular_thumbnail.jpg "Material Dashboard Angular Free")
