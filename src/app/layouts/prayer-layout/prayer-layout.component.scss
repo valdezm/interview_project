@@ -1,0 +1,19 @@
+.main-panel{
+    float: left;
+    width: 100%;
+}
+.navbar-collapse.collapse {
+    display: block!important;
+  }
+  .bg { 
+    /* The image used */
+    background-image: url("/../assets/img/Flower_bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
