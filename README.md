@@ -6,7 +6,7 @@ Using Node v6.11.3 on Windows
 5. Run in terminal: ```npm install```
 
 And, ng isn't baked in to my command-line, so:
-6. Run `node run ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+6. Run `npm run ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
 # [Material Dashboard Angular - Free Bootstrap Material Design Admin](https://www.creative-tim.com/product/material-dashboard-angular2)[![version][version-badge]][CHANGELOG]
