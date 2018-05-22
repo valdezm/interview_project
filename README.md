@@ -1,6 +1,13 @@
 ![alt text](whiteboard/20180521_165756.jpg "Some inspiration on the path forward")
 **[To build this project checkout the Terminal Commands below](https://github.com/valdezm/interview_project#terminal-commands)**
 
+With the excpetion:
+Using Node v6.11.3 on Windows
+5. Run in terminal: ```npm install```
+
+And, ng isn't baked in to my command-line, so:
+6. Run `node run ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 
 # [Material Dashboard Angular - Free Bootstrap Material Design Admin](https://www.creative-tim.com/product/material-dashboard-angular2)[![version][version-badge]][CHANGELOG]
 
